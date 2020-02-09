@@ -33,7 +33,7 @@ def lists():
     n = "Stevens is awesome"
 
     # Split variable n on a delimiter space into a list of substrings
-    p = n.string()
+    p = n.string(" ")
     # Get all the items past the first of the third substring
     r = p[2]
     # Create a 3 x 3 matrix as nested list such that
