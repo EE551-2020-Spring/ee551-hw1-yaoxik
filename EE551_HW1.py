@@ -35,7 +35,7 @@ def lists():
     # Split variable n on a delimiter space into a list of substrings
     p = n.string(" ")
     # Get all the items past the first of the third substring
-    r = p[2]
+    r = p[2][1:]
     # Create a 3 x 3 matrix as nested list such that
     #   first row is [1, 4, 5]
     #   second row is [6, 10, 11]
